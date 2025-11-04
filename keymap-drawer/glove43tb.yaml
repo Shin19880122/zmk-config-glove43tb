@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: SCROLL}
   - FUNCTION
   - NUM
-  - {t: ENTER, h: ARROW}
+  - {t: ENTER, h: '7'}
   - Ctl+SPACE
   FUNCTION:
   - F1
@@ -96,9 +96,9 @@ layers:
   - +
   - ^
   - '&'
-  - '~'
-  - DEL
-  - BACKSPACE
+  - '-'
+  - F11
+  - F12
   - /
   - KP 4
   - KP 5
@@ -117,11 +117,11 @@ layers:
   - KP 3
   - .
   - '='
-  - {t: ▽, type: trans}
   - '['
   - ']'
   - (
   - )
+  - '6'
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,35 +138,35 @@ layers:
   - '?'
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - F12
-  - '@'
   - '7'
   - '8'
   - '9'
+  - '@'
+  - '-'
   - LEFT WIN
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - END
   - {t: ▽, type: trans}
-  - F11
-  - UP ARROW
-  - '-'
+  - '&'
   - '4'
   - '5'
   - '6'
+  - '-'
+  - UP ARROW
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT
+  - _
   - '1'
   - '2'
   - '3'
+  - LEFT ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,8 +174,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
+  - DOWN ARROW
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,6 +308,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '7':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - DEL
+  - BACKSPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - Gui+1
 combos:
 - p: [0, 1]
   k: TAB
