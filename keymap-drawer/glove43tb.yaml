@@ -41,8 +41,8 @@ layers:
   - ARROW
   - {t: SPACE, h: SCROLL}
   - FUNCTION
-  - ARROW
-  - {t: ENTER, h: NUM}
+  - NUM
+  - {t: ENTER, h: ARROW}
   - Ctl+SPACE
   FUNCTION:
   - F1
@@ -55,7 +55,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - Gui+1
   ARROW:
   - ESCAPE
@@ -138,7 +138,7 @@ layers:
   - '?'
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - '@'
   - '7'
   - '8'
@@ -149,7 +149,7 @@ layers:
   - RIGHT ARROW
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F11
   - UP ARROW
   - '-'
   - '4'
