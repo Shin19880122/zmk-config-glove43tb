@@ -41,7 +41,7 @@ layers:
   - ARROW
   - {t: SPACE, h: SCROLL}
   - FUNCTION
-  - BACKSPACE
+  - ARROW
   - {t: ENTER, h: NUM}
   - Ctl+SPACE
   FUNCTION:
@@ -61,10 +61,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F13
-  - F6
-  - F7
-  - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '6'
-  - F11
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
   NUM:
   - '-'
   - KP 7
@@ -196,8 +196,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,13 +309,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
+- p: [0, 1]
   k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+- p: [10, 11]
+  k: SPACE
+- p: [18, 19]
+  k: '&mkp MB1'
+- p: [19, 20]
+  k: '&mkp MB2'
+- p: [12, 14]
+  k: F1
+- p: [12, 26]
+  k: F2
