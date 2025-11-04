@@ -65,27 +65,32 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <0 1>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <10 11>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        Lcrick {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        rcrick {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        F1combo {
+            bindings = <&kp F1>;
+            key-positions = <12 14>;
+        };
+
+        F2combo {
+            bindings = <&kp F2>;
+            key-positions = <12 26>;
         };
     };
 
@@ -131,7 +136,7 @@
 &kp Q      &kp W           &kp E         &kp R  &kp T                                          &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S           &kp D         &kp F  &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &lt 5 L  &kp ENTER
 &kp Z      &kp X           &kp C         &kp V  &kp B        &kp COLON          &kp BACKSPACE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 3  &lt 5 SPACE  &mo 1              &kp BACKSPACE  &lt 2 ENTER                             &kp LC(SPACE)
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 3  &lt 5 SPACE  &mo 1              &mo 3          &lt 2 ENTER                             &kp LC(SPACE)
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -139,10 +144,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                       &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &mo 6    &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                           &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mo 6    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -168,10 +173,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
