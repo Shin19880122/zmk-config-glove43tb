@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - Ctl+SPACE
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
@@ -43,7 +43,7 @@ layers:
   - FUNCTION
   - NUM
   - {t: ENTER, h: '7'}
-  - Ctl+SPACE
+  - /
   FUNCTION:
   - F1
   - F2
@@ -197,7 +197,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
