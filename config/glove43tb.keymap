@@ -126,6 +126,20 @@
 
             tap-ms = <20>;
         };
+
+        new_behavior_a_shift: new_behavior_a_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR_A_SHIFT";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp LEFT_SHIFT>;
+        };
+
+        new_behavior_z_ctrl: new_behavior_z_ctrl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR_Z_CTRL";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&kp LCTRL>;
+        };
     };
 
     keymap {
@@ -135,8 +149,8 @@
             bindings = <
 &kp Q      &kp W           &kp E         &kp R  &kp T                                          &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S           &kp D         &kp F  &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &lt 5 L  &kp ENTER
-&kp Z      &kp X           &kp C         &kp V  &kp B        &kp COLON          &kp BACKSPACE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 3  &lt 5 SPACE  &mo 1              &mo 2          &lt 7 ENTER                             &kp LC(SPACE)
+&kp Z      &kp X           &kp C         &kp V  &kp B        &kp COLON          &kp BACKSPACE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp LC(SPACE)
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 3  &lt 5 SPACE  &mo 1              &mo 2          &lt 7 ENTER                             &kp SLASH
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -174,7 +188,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
