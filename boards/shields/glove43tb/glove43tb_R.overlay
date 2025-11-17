@@ -82,5 +82,6 @@
         y-input-code = <INPUT_REL_Y>;
         invert-y;     // マウス操作のY軸を反転
         cpi = <400>;  // マウス感度
+        force-awake;
     };
 };
