@@ -353,13 +353,17 @@ layers:
   - {type: held}
   - Gui+1
 combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
+- p: [18, 19]
+  k: '&mkp MB1'
+- p: [19, 20]
+  k: '&mkp MB2'
 - p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+  k: SPACE
+- p: [12, 14]
+  k: F1
+- p: [12, 26]
+  k: F2
+- p: [8, 21]
+  k: P
+- p: [1, 10]
+  k: Q
